@@ -1,0 +1,361 @@
+body,html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+  }
+  
+  .navbar {
+     background-color:rgb(99, 207, 211);
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 100;
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  .navbar li{
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  .navbar a{
+    color: black;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+  }
+  
+  .navbar a:hover {
+    color: gray;
+  }
+  
+  section {
+    padding:2;
+    margin-top: 50px; 
+  }
+  
+  section h2 {
+    margin-top: 0;
+  }
+  
+  /* html {
+    scroll-behavior: smooth;
+  } */
+  iframe {
+    position: relative; 
+    background-image: url('resources/images\ \(2\).jpeg'); 
+    background-size: cover; 
+    background-position: center;
+    width: 100%;
+    height: 100%; 
+    border: none; 
+   }
+    /* style for homepage*/
+    .homediv{
+      height: 50%;
+      justify-content: center;
+      text-align: center;
+    }
+    .homediv h1{
+      color:black;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    /* style for cv page */
+    #cvid
+  {
+    padding: 10px;
+    margin: 40px;
+  }
+  .mycv
+  {
+    padding: 10px;
+    margin: 40px;
+  }
+    /* contact bage style */
+    #contactid{
+      padding: 5px;
+      margin: 0;
+      height: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center; 
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-size: 40px;
+      color: cadetblue;
+    }
+    #socialid{
+      display: flex;           
+      justify-content: center;  
+      align-items: center; 
+    }
+    #socialid a{
+      font-size: 50px;
+      margin: 20px;
+    }
+    #socialid a i{
+      color: cadetblue;
+    }
+    #socialid a:hover i{
+
+      transform: scale(1.2);
+      
+    }
+    /* style for countries page */
+    /* style for countries page */
+   .country1
+   {
+      padding:0;
+      margin: 50px;
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      align-items: center;
+      font-size: 40px;
+      color:black;
+    }
+    .countryphoto{
+      /* height: 50%; */
+      padding: 20px;
+      display: flex;
+      align-items: center;
+      justify-content:center; 
+     gap: 15px;
+    }
+    .country{
+      text-align: center;
+    }
+    .country:hover img{
+      transform: scale(1.3);
+    }
+    /* style for hobbies bage */
+    /* hobbies page */
+.images{
+  
+  width: 90%;
+  height: 500px;
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+}
+.image-container{
+ 
+  width: 100%;
+  height: 500px;
+  display:flex;
+  justify-content:center;
+  align-items: center;
+  border-radius: 10px;
+}
+.images p{
+  /* color:; */
+}
+.h1style{
+  text-align: center;
+  
+}
+.images span{
+  transition: transform 0.3s ease-in-out;
+}
+.images span:hover{
+  transform: scale(1.2);
+}
+    /* style for skilles page */
+.skillbody {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f4f4f4;  /* Optional: Adding a background color */
+}
+
+#tecsection {
+  text-align: center;
+}
+
+.mainskilles {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.skillesdiv {
+  text-align: center;
+  margin: 20px;
+}
+
+.skillesdiv h1, .skillesdiv h2, .skillesdiv h3, .skillesdiv h4 {
+  margin: 10px 0;
+  font-size: 18px;  
+}
+
+.circle {
+  width: 130px;  /* Slightly larger circles */
+  height: 130px;
+  border-radius: 50%;
+  border: 10px solid #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-bottom: 20px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.progress {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: conic-gradient(
+    cadetblue 0% 70%,  /* Adjust the percentage for progress */
+    white 100%
+  );
+}
+
+.circle span {
+  position: absolute;
+  z-index: 1;
+  font-size: 18px;  
+  font-weight: bold;
+  color: black;
+}
+
+
+    .thankspage {
+      background-image: url('resources/download.jpeg');
+      /* background-size: ;  */
+      background-repeat: no-repeat;
+      background-position: center;
+      height: 100%; 
+      width: 100%;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  #birthday{
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+    height: 100vh; /* Full viewport height */
+    margin: 0; /* Remove default margin */
+    
+  }
+  #birthdaypage{
+    width: 300px;
+    height: 300px;
+    display:block;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+  }
+  label {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+#message {
+  width: 500px; 
+  height: 200px; 
+  font-size: 1.2em; 
+  padding: 10px;
+  border: 2px white; 
+  align-content: center;
+}
+input[type="submit"] {
+  padding: 10px 20px;
+  font-size: 1.2em;
+  cursor: pointer;
+  border: none;
+  background-color:cadetblue ;
+  color: white;
+}
+input[type="submit"]:hover {
+  background-color: rgb(165, 236, 239);
+}
+/* overview style */
+.slideshow-container {
+  overflow: hidden;
+  height: 800px;
+  width: 1200px;
+  margin-right: 250px;
+  margin-left: 80px;
+  margin-top: 20px;
+  position: relative; /* Ensure proper positioning for the wrapper */
+}
+
+@-webkit-keyframes slide_animation {
+  0% {
+    left: 0;
+  }
+  10% {
+    left: 0;
+  }
+  20% {
+    left: -1200px; /* Move the first image out */
+  }
+  30% {
+    left: -1200px;
+  }
+  40% {
+    left: -2400px; /* Move the second image out */
+  }
+  50% {
+    left: -2400px;
+  }
+  60% {
+    left: -3600px; /* Move the third image out */
+  }
+  70% {
+    left: -3600px;
+  }
+  80% {
+    left: -4800px; /* Move the fourth image out */
+  }
+  90% {
+    left: -4800px;
+  }
+  100% {
+    left: -6000px; /* Move the last image out */
+  }
+}
+
+.wrapper {
+  width: 7200px; /* Total width of all the images combined (1200px * 6) */
+  height: 800px;
+  position: relative;
+  -webkit-animation-name: slide_animation;
+  -webkit-animation-duration: 33s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-direction: normal; /* Keep animation direction normal */
+  -webkit-animation-play-state: running;
+}
+
+.country {
+  width: 1200px;
+  height: 800px;
+  float: left;
+  text-align: center;
+}
+
+.mySlides {
+  width: 80%;  /* Set the image width to 80% of the container */
+  height: auto;  /* Keep the aspect ratio intact */
+}
+
