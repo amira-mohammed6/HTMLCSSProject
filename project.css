@@ -297,7 +297,7 @@ input[type="submit"]:hover {
   margin-right: 250px;
   margin-left: 80px;
   margin-top: 20px;
-  position: relative; /* Ensure proper positioning for the wrapper */
+  position: relative; 
 }
 
 @-webkit-keyframes slide_animation {
@@ -308,36 +308,36 @@ input[type="submit"]:hover {
     left: 0;
   }
   20% {
-    left: -1200px; /* Move the first image out */
+    left: -1200px; 
   }
   30% {
     left: -1200px;
   }
   40% {
-    left: -2400px; /* Move the second image out */
+    left: -2400px;
   }
   50% {
     left: -2400px;
   }
   60% {
-    left: -3600px; /* Move the third image out */
+    left: -3600px; 
   }
   70% {
     left: -3600px;
   }
   80% {
-    left: -4800px; /* Move the fourth image out */
+    left: -4800px; 
   }
   90% {
     left: -4800px;
   }
   100% {
-    left: -6000px; /* Move the last image out */
+    left: -6000px; 
   }
 }
 
 .wrapper {
-  width: 7200px; /* Total width of all the images combined (1200px * 6) */
+  width: 7200px; 
   height: 800px;
   position: relative;
   -webkit-animation-name: slide_animation;
@@ -347,7 +347,7 @@ input[type="submit"]:hover {
   -webkit-animation-play-state: running;
 }
 
-.country {
+.styles {
   width: 1200px;
   height: 800px;
   float: left;
@@ -355,7 +355,6 @@ input[type="submit"]:hover {
 }
 
 .mySlides {
-  width: 80%;  /* Set the image width to 80% of the container */
-  height: auto;  /* Keep the aspect ratio intact */
-}
+  width: 80%;  
+  height: auto; }
 
